@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef; 
+}
+
+li {
+  list-style: none;
+} 
+
+/*********************************** NAV BAR *******************************************/
+nav {
+  height: 50px;
+  margin-top: 3.5%;
+}
+
+nav li {
+  display: inline;
+  padding-left: 40px;
+  font-size: 15px;
+  }
+
+nav li a {
+  text-decoration: none;
+  color: black;
+
+}
+
+nav span {
+  float: left;
+  font-style: italic;
+  font-weight: bold;
+  padding-right: 730px;
+  margin-left: 5%;
+}
+
+/*********************************** HEADER *******************************************/
+
+header {
+  text-align: center;
+  height: 300px;
+}
+
+header img {
+  width: 96.5%;
+  height: 200px;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+
+h3 {
+  padding-top: 50px;
+  font-weight: normal;
+}
+
+span {
+  color: #f99;
+}
+
+h5 {
+  text-align: center;
+}
+
+div h5 span {
+  color: #f99;
+  font-style: italic;
+}
+
+
+/*********************************** ABOUT ME *******************************************/
+
+.aboutMe {
+  height: 150px;
+  width: 45%;
+  float: left;
+  padding-top: 70px;
+  margin-left: 5%;
+}
+
+/*********************************** MY WORK *******************************************/
+
+.bucketList {
+  height: 150px;
+  width: 45%;
+  float: right;
+  padding-top: 70px;
+  margin-right: 3%;
+}
+
+.bucketList span {
+  text-align: center;
+}
+
+
+/*********************************** PHOTOS *******************************************/
+.wrapper {
+  width: 100%;
+  height: 600px;
+  padding-top: 100px;
+  padding-left: 50px
+}
+
+.wrapper img {
+  border-radius: 25px;
+  height: 175px;
+  width: 200px;
+  display: inline-block;
+  margin: 23px;
+}
+
+
+/*********************************** FOOTER *******************************************/
+
+footer {
+  background-color: #2d2d2d;
+  height: 375px;
+  width: 100%;
+  clear: both;
+  padding-top: 25px;
+}
+
+/*********************************** CONTACT FORM *******************************************/
+form {
+  width: 50%;
+} 
+
+.contact {
+  margin-left: 2%;
+}
+
+input {
+  width: 100%;
+  margin-top: 12px;
+  border: none;
+  border-radius: 4px;
+}
+
+.inputMessage {
+  height: 150px;
+}
+
+button {
+  background-color: #2d2d2d;
+  color: white;
+  border: none;
+  padding: 0;
+  padding-top: 10px;
+}
+
+/*********************************** SOCIAL ICONS *******************************************/
+
+.socialIcons {
+  float: right;
+  width: 200px;
+  height: 200px;
+
+}
+
+i {
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
