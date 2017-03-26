@@ -106,7 +106,7 @@ div h5 span {
 .wrapper img {
   border-radius: 25px;
   height: 175px;
-  width: 200px;
+  width: 15%;
   display: inline-block;
   margin: 23px;
 }
@@ -163,12 +163,11 @@ i {
   margin-right: 10px;
 }
 
-
-
-
-
-
-
+@media (max-width: 1034px) {
+  .wrapper img {
+    width: 14%;
+  }
+}
 
 
 
